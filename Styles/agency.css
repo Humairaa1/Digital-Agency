@@ -31,7 +31,76 @@
 /* Banner Relatate Styles */
 .banner{
     height: 100vh;
-    background-image: url('../images/background.jpg');
+    background-image: url('../images/background.jpg'),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center; 
+    text-align: center; 
+    justify-content: center;
 }
+.banner-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.Primary-clr{
+    color: red;
+}
+.banner-description{
+    color: white;
+    width: 70%;
+    margin: auto;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: tomato;
+    border: none;
+}
+
+/* Section Relatate Styles */
+
+.Service-section{
+    height: 100vh;
+    background-color: lightslategray;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+.ceo-ingo{
+    display: flex;
+}
+.ceo-profile{
+    display: flex;
+}
+.author-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+.icon{
+    height: 100px;
+    width: 100px;
+}
+.box{
+    height: 170px;
+    width: 180px;
+    padding: 25px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+}
+.first-two-box{
+    display: flex;
+    gap: 5px;
+}
+.second-two-box{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
