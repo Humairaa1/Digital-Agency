@@ -1,6 +1,17 @@
+/* shared styles section  */
+
+.Primary-clr{
+    color: red;
+}
 *{
     margin: 0px;
     padding: 0px;
+}
+
+.btn-two{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
 }
 
 /* Nav Relatate styles  */
@@ -46,9 +57,8 @@
     font-weight: bold;
     color: white;
 }
-.Primary-clr{
-    color: red;
-}
+
+
 .banner-description{
     color: white;
     width: 70%;
@@ -64,22 +74,46 @@
 
 .Service-section{
     height: 100vh;
-    background-color: lightslategray;
+    background-color: black;
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 50px;
     margin-top: 10px;
+}
+.service-title{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+
+}
+.service-description{
+    color: white;
+    width: 50%;
+    margin-bottom: 15px;
+}
+.section-list{
+    color: white;
+    padding-left: 15px;
+    margin-bottom: 15px;
 }
 .ceo-ingo{
     display: flex;
+    gap: 5px;
 }
 .ceo-profile{
     display: flex;
+    padding-right: 50px;
+    border-right: 1px solid red;
+    
 }
 .author-img{
     height: 50px;
     width: 50px;
     border-radius: 25px;
+}
+.author-info{
+    color: white;
+    font-weight: bold;
 }
 .icon{
     height: 100px;
