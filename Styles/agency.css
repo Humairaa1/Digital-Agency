@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Nav Relatate styles  */
+.web-menu {
+    display: flex;
+    background-color: lightgray;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+
+}
+.menus{
+    display: flex;
+    gap: 20px;
+    list-style: none; 
+    
+}
+
+ .menus a{
+    text-decoration: none;
+    color: black;
+} 
+.digital-logo{
+    display: flex;
+    align-items: center;
+}
+
+/* Banner Relatate Styles */
+.banner{
+    height: 100vh;
+    background-image: url('../images/background.jpg');
+    background-position: center;
+    background-size: cover;
+}
